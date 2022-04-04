@@ -4,6 +4,8 @@
 ширину предмета. 
 При первом запуске, чтобы узнать фокальное расстояние, необходимо изменить строчку в first_run.py
 
+![Безымянный-1_Монтажная область 1](https://user-images.githubusercontent.com/101719007/161602789-2bf6db78-037d-4bd7-b517-f80a11a20a8f.jpg)
+
 Расположение файла: 
 
 /home/nvidia/Anna/first_run.py
@@ -48,5 +50,8 @@ f = 442.8571428571429 #focal length
 python monocamera_distance.py
 
 1) Алгоритм работы программы 
+
+![2_Монтажная область 1](https://user-images.githubusercontent.com/101719007/161603133-c97f386e-8372-418b-85cc-818baa67f941.jpg)
+
 
 2) 
