@@ -3,8 +3,14 @@ import numpy as np
 
 hsv_min = np.array((22, 93, 0), np.uint8)
 hsv_max = np.array((45, 255, 255), np.uint8)
+
 #real width of the object (cm)
-W = 6.3 
+print('Введите реальную ширину объекта в сантиметрах:')
+W = float(input()) 
+
+#distance between object and camera (cm)
+print('Введите введите расстояние от объекта до камеры в сантиметрах:') 
+d = float(input()) 
 
 cap = cv2.VideoCapture(0)
 while True:
@@ -24,14 +30,14 @@ while True:
         radius = int(radius)
         
         w = radius
-        if radius>50 :
+        if radius>10 :
             
             frame = cv2.circle(frame, center, radius, (255, 0, 0), 2)
             w = radius
 
-            d = 15 #distance between object and camera (cm)
             f = (w*d)/W
             print('f = ', f)
+
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
