@@ -71,11 +71,17 @@ python monocamera_distance3.py
 (11.04.2022)
 
 В комнате поменялось освещение, поэтому пришлось настраивать границы цветов HSV для кругов заново. 
+
 Новые границы для желтого:
+
 ![image](https://user-images.githubusercontent.com/101719007/162704746-188f6b4e-9c50-49fb-8c76-ce4a79ae4ed9.png)
+
 Новые границы для зелёного:
+
 ![image](https://user-images.githubusercontent.com/101719007/162706023-0160e48c-069e-4c96-9b21-f7a81a589ac8.png)
+
 Пример работы программы monocamera_distance4.py: 
+
 ![image](https://user-images.githubusercontent.com/101719007/162742122-99f534b0-e206-45e3-9b93-e16e93b2aa48.png)
 
 Из-за слабой камеры неточно определяется цветовое пятно, что приводит к неточным подсчетам расстояния и координат. 
@@ -83,6 +89,7 @@ python monocamera_distance3.py
 
 
 Размер полигона: 832 мм на 1150 мм. 
+
 ![image](https://user-images.githubusercontent.com/101719007/162813497-38243ea3-5d1c-46d6-9206-c393c6f3028a.png)
 
 ![image](https://user-images.githubusercontent.com/101719007/162813468-b350d7aa-9df7-4e82-a4c5-1815bd7d673b.png)
@@ -96,6 +103,7 @@ python monocamera_distance3.py
 pip install pyzbar
 
 Демонстрация работы программы QR.py
+
 ![image](https://user-images.githubusercontent.com/101719007/162758051-93ff5d59-1904-4ee6-b47b-4dad1f5d8971.png)
 
 
