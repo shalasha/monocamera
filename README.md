@@ -111,5 +111,15 @@ pip install pyzbar
 
 ![image](https://user-images.githubusercontent.com/101719007/162765328-3f701719-aae9-47cb-ab13-c36fdf50601c.png)
 
-Скачки координат значительно уменьшились, но тест на ноутбуке показал, что коды распознаются намного лучше с веб-камерой с более четкой картинкой. 
+Скачки координат значительно уменьшились, но тест на ноутбуке показал, что коды распознаются намного лучше с веб-камерой с более четкой картинкой.  
+
+19.04.2022
+
+sudo -H pip install -U jetson-stats
+
+sudo jtop
+
+The jetson_stats.service is not active. Please run:
+
+sudo systemctl restart jetson_stats.service
 
