@@ -123,3 +123,6 @@ The jetson_stats.service is not active. Please run:
 
 sudo systemctl restart jetson_stats.service
 
+25.04.2022
+
+Размеры полигона: 200см на 360см
